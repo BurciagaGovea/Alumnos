@@ -132,6 +132,6 @@ Revisa `src/screens/` para ver la estructura de pantallas.
 
 ## Demo en video
 
-> 
+> https://drive.google.com/file/d/1ZrpRrkHh6hSFoe7PMnlhbtyyp7MWHCBC/view?usp=sharing
 
 ---
