@@ -55,6 +55,18 @@ npm run dev
 ```bash
 cd ../front
 npm install
+```
+
+Crea un archivo `.env` en la carpeta `front/` con las siguientes variables:
+
+```env
+REACT_APP_GOOGLE_CLIENT_ID=tu_google_client_id
+REACT_APP_RECAPTCHA_SITE_KEY=tu_recaptcha_site_key
+```
+
+Luego ejecuta:
+
+```bash
 npm start
 ```
 

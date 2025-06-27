@@ -61,7 +61,7 @@ export default function AlumnosAgregar() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post('/alumnos', alumno);
+      const { data } = await axios.post('http://localhost:5000/alumnos', alumno);
       Swal.fire('¡Éxito!', 'Alumno agregado correctamente.', 'success');
       navigate('/alumnos');
     } catch (err: any) {
